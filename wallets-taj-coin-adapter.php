@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: XYZ Coin Adapter
+Plugin Name: TajCoin Adapter
 Plugin URI: https://www.dashed-slug.net/bitcoin-altcoin-wallets-wordpress-plugin/full-node-multi-coin-adapter-extension/
 Description: Example of how to add an RPC-compatible wallet to the Full Node Multi Coin Adapter for Bitcoin and Altcoin Wallets
 Version: 0.1.0
@@ -10,7 +10,7 @@ Author URI: http://alexgeorgiou.gr
 function wallets_multiadapter_coins_filter( $coins ) {
 	$coins['XYZ'] = array( // replace XYZ with the coin's ticker symbol in this line
 		// Coin symbol (again)
-		'symbol' => 'XYZ',
+		'symbol' => 'TAJ',
 		// Coin name
 		'name' => 'XYZ coin',
 		// Default withdrawal fee (coin adapter settings override this)
